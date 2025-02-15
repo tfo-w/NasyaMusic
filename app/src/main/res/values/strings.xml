@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">NasyaMusic</string>
+    <string name="local_tracks">Local Tracks</string>
+    <string name="api_tracks">API Tracks</string>
+    <string name="player">Player</string>
+    <string name="track_title">Track Title</string>
+    <string name="artist">Artist</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+    <string name="play">Play</string>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/LocalTracksFragment">
+
+    <!-- Экран локальных треков -->
+    <fragment
+        android:id="@+id/LocalTracksFragment"
+        android:name="com.example.nasyamusic.ui.fragments.LocalTracksFragment"
+        android:label="Local Tracks" />
+
+    <!-- Экран треков из API -->
+    <fragment
+        android:id="@+id/ApiTracksFragment"
+        android:name="com.example.nasyamusic.ui.fragments.ApiTracksFragment"
+        android:label="API Tracks" />
+
+    <!-- Экран воспроизведения -->
+    <fragment
+        android:id="@+id/PlayerFragment"
+        android:name="com.example.nasyamusic.ui.fragments.PlayerFragment"
+        android:label="Player" />
+</navigation>
